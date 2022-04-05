@@ -1,0 +1,35 @@
+{
+  "name": "mongodb-database-example-starter",
+  "version": "1.0.0",
+  "description": "MongoDB database demo, storing data in MongoDB Atlas.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "3.4.0",
+    "mongoose": "^6.2.9",
+    "nodemailer": "^6.7.3",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "mongodb",
+    "database"
+  ]
+}
